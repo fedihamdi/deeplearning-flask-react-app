@@ -12,7 +12,7 @@ def predict_sentiment():
     sentence = data['sentence']
     sentiment = TextBlob(sentence).sentiment
     score = sum(sentiment)/len(sentiment)
-    if score > 0.5:
+    if score >= 0.5:
         res = "Positive"
     else:
         res = "Negative"
