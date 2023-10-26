@@ -1,4 +1,4 @@
-name: Deploy ML API
+name: Deploy ML-API
 
 on:
   push:
